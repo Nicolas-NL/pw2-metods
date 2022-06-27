@@ -1,11 +1,12 @@
 
 public class TestaAtleta {
 	public static void main(String[] args) {
-		Atleta at = new Atleta();
-		at.peso=68;
-		at.altura=1.74;
+        double peso, altura;
+		peso=68;
+		altura=1.74;
 		
-		at.obterIMC();
+        Atleta at = new Atleta();	
+		at.obterIMC(peso, altura);
 		at.classificar();
 		at.obterRisco();
 	}

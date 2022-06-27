@@ -2,7 +2,7 @@
 public class Atleta {
 	public double peso, altura, imc;
 	
-	public void obterIMC() {
+	public void obterIMC(double peso, double altura) {
 		imc = peso /(altura*altura);
 	   
 		System.out.println(imc);
